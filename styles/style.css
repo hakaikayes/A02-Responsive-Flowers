@@ -285,6 +285,14 @@
 .footer-logoinfo{
     width: 359px;
 }
+
+/* *{
+    border: 1px solid red;
+} */
+    
+
+
+
 /* responsive media query */
 @media screen and (max-width: 574px) {
     /* shared items */
@@ -306,13 +314,24 @@
         display: none;
     }
     .img03{
-        width: 100%;
+        max-width: 361px;
     }
-
-   
+    .offer-img2{
+        max-width: fit-content;
+    }
+    .offer3{
+    margin-top: -200px;
+    font-size: 1.25rem;
+}
+    .zabo{
+    
+    font-size: 1.25rem;
+    font-weight: bold;
+}
     body{
         margin: 0 auto;
     }
+
  
 
 /* products part */
