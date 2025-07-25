@@ -25,7 +25,10 @@
  .text-dark2{
     color: #252432;
  }
- .text-grey{
+ .text-gray{
+    color: #6B7280;
+ }
+ .text-grey1{
     color: #8987A1;
  }
  .text-oraange{
@@ -125,6 +128,9 @@
     width: 100%;
     height: auto;
 }
+.badge{
+    width: 100%;
+}
 .about-header{
     font-size:3.125rem;
     font-weight: bold;
@@ -190,6 +196,7 @@
 }
 .img03{
     width: 100%;
+    
     border-radius: 20px;
     
 }
@@ -206,11 +213,7 @@
     font-weight: 700;
 }
 /* subcription part */
-/* .subscription-content{
-    background-image: url(/assets/news-letter-bg.png);
-    width: 100%;
-    margin: none;
-} */
+
 .sub-header{
     font-size: 3.125rem;
     font-weight: bold;
@@ -223,7 +226,7 @@
     text-align: center;
 }
 .email-sub{
-   
+    width: 830;
     justify-content: center;
 }
 .email{
@@ -243,11 +246,49 @@
 }
 .sub-img{
     width: 100%;
+    height: 100%;
+}
+/* footer part */
+.footer-content{
+    max-width:1440px ;
+    font-weight: 500;
+    margin: 0 auto;
+    margin-top: 300px;
+    padding: auto;
+    font-weight: 600;
+    gap: 110px;
+}
+.context{
+    font-size:1.375rem ;
+    
+    
+}
+.footer-items{
+    list-style: none;
+}
+.footer-links{
+    text-decoration: none;
+}
+.footer-bar{
+    display: grid;
+    /* grid-template-columns: repeat(2, 2fr); */
+    font-weight: 600;
+}
+.bar{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    margin-right: 110px;
+}
+.logos{
+    margin-right: 24px;
+}
+.footer-logoinfo{
+    width: 359px;
 }
 /* responsive media query */
 @media screen and (max-width: 574px) {
     /* shared items */
-    .about-content, .offers{
+    .about-content, .offers, .footer-content{
         flex-direction: column;
     }
     
@@ -264,10 +305,14 @@
     #none3{
         display: none;
     }
-    
+    .img03{
+        width: 100%;
+    }
 
    
-
+    body{
+        margin: 0 auto;
+    }
  
 
 /* products part */
